@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection with Unsplash Integration</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.13.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/ObjectDetection.css">
+
+</head>
+
+<body>
+    <!-- <video id="video" width="640" height="480" autoplay></video>
+    <div id="overlay"></div>
+    <button id="toggleWebcam">Start Webcam</button>
+    <div id="predictions"></div>
+    <div id="image-cards"></div> -->
+    <h1>Object Detection with Webcam</h1>
+    <button id="toggleWebcam">Start Webcam</button>
+    <div class="video-container">
+        <video id="video" autoplay muted></video>
+        <div id="overlay"></div>
+    </div>
+    <div id="predictions"></div>
+    <div id="image-cards"></div>
+
+    <a id="link" href="../index.html">Back to Index</a>
+    <script type="module" src="../components/objectDetection/main.js"></script>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection with Webcam</title>
+    <link rel="stylesheet" href="../style/page3.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/ObjectDetection.css">
+
+</head>
+
+<body>
+    <h1>Object Detection with Webcam</h1>
+    <button id="toggleWebcam">Start Webcam</button>
+    <div class="video-container">
+        <video id="video" autoplay muted></video>
+        <div id="overlay"></div>
+    </div>
+    <div id="predictions"></div>
+    <div id="image-cards"></div>
+
+    <a id="link" href="../index.html">Back to Index</a>
+    <script src="../components/ObjectDetection.js"></script>
+</body>
+
+</html> -->

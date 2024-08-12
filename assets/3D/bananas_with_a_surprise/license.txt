@@ -1,0 +1,11 @@
+Model Information:
+* title:	bananas with a surprise
+* source:	https://sketchfab.com/3d-models/bananas-with-a-surprise-8f591ee93e2f4690b896b14f2b2a5202
+* author:	Mantas Talmantas (https://sketchfab.com/mantasT)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "bananas with a surprise" (https://sketchfab.com/3d-models/bananas-with-a-surprise-8f591ee93e2f4690b896b14f2b2a5202) by Mantas Talmantas (https://sketchfab.com/mantasT) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
