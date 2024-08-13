@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.start-img {
+    background-image: url(https://images.unsplash.com/photo-1554595666-19ceabf46a84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0 100px;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Sans-serif;
+    text-decoration: none;
+    margin-bottom: 70px;
+
+}
+
+.title1 {
+    color: #ff8001;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+.title2 {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.introduce {
+    color: #ffffffb3;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
+
+}
+
+.jotform-icon {
+    background-image: url("https://files.startupranking.com/startup/thumb/37832_dd0dcdb7463391d8ee4a9b7468e9f5aa930e359e_jotform_m.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 70px;
+}
+
+.button {
+    padding: 12px 17px;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    font-size: 100%;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+}
+
+.title3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.icon1-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+}
+
+.icon-description {
+    display: block;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #000000b3;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.icon-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three-icon {
+    flex: 1;
+    padding: 30px;
+}
+
+.icon-title {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(9, 66, 236);
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+/* .img-p {
+    color: rgb(9, 66, 236);
+    font-weight: bold;
+    font-size: larger;
+} */
+
+.page2 {
+    text-align: center;
+}
+
+.page3 {
+    background-color: #fbfbfb;
+    /* border: #ff8001 1px solid; */
+}
+
+.page3-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.page3-img {
+    max-width: 540px;
+    width: 100%;
+    /* border: #4adb11 1px solid; */
+}
+
+/* .carousel-container {
+    border: #3302af 1px solid;
+} */
+
+.information {
+    flex: 1;
+    padding-left: 70px;
+}
+
+button.learn-more {
+    background-color: #292b2c;
+    color: white;
+}
+
+.info-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.info-all {
+    color: #000000b3;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 17px;
+
+}
+
+.get-free {
+    background-color: #292b2c;
+    color: white;
+}
+
+span {
+    font-size: 40px;
+}
+
+.carousel-custom {
+    width: 500px;
+    height: auto;
+}
+
+.carousel-image {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item {
+    transition: transform 1.5s ease-in-out;
+}
+
+.mem-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.orange {
+    background-color: #ff8001;
+    color: white;
+}
+
+@media (max-width: 840px) {
+    .information {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .page3-box {
+        justify-content: center;
+    }
+}
